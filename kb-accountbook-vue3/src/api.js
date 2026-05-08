@@ -1,8 +1,9 @@
-import axios from 'axios'
+import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || 'https://ai-figma-4.onrender.com',
+  baseURL:
+    import.meta.env.VITE_API_BASE_URL || 'https://kb-figma-ak0v.onrender.com',
   headers: {
-    'Content-Type': 'application/json'
-  }
-})
+    'Content-Type': 'application/json',
+  },
+});
